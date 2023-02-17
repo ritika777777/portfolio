@@ -106,6 +106,7 @@ ul li a:hover {
    
     color: #f4e514d8;
     text-shadow: 0 0 5px #e0d31edf;
+    
 }
 
  div a{
@@ -115,11 +116,13 @@ ul li a:hover {
     padding: 40px;
    
 }
+
 .social-icons{
  
    font-size: 50px;
    margin-top: 76px;
    margin-left: 500px;
+    
 }
 
 #h1{
@@ -129,9 +132,11 @@ ul li a:hover {
     font-size: 40px;
     color: orange;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 #p1{
+    
    margin-left: 283px;
    color: white;
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -140,6 +145,20 @@ ul li a:hover {
 }
 
 body{
+    
     background-color: rgba(11, 11, 11, 0.934);
 }
+
+.social-icons a i:hover::after{
+    
+    transform: scale(1.1);
+
+}
+.social-icons a i:hover {
+   
+    color: #f4e514d8;
+    text-shadow: 0 0 5px #e0d31edf;
+    
+}
+
 
